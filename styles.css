@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #b22;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.card.popular {
+    border-color: #fc0;
+    background-color: #fff8e1;
+}
+
+.card input[type="radio"] {
+    display: none;
+}
+
+.card label {
+    display: block;
+    cursor: pointer;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #d9534f;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.most-popular {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f0ad4e;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.select-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.select-group label {
+    font-size: 14px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.strike {
+    text-decoration: line-through;
+    font-weight: normal;
+    color: #888;
+}
+
+.summary {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.add-to-cart {
+    background-color: #ff5b5b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #ff3333;
+}
